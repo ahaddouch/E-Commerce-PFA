@@ -78,7 +78,9 @@ class _HomeState extends State<Home> {
                     padding: const EdgeInsets.all(12.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+
                       children: [
+
                         const TopTitles(subtitle: "", title: "E Commerce"),
                         TextFormField(
                           controller: search,

@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 // import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:provider/provider.dart';
+import 'package:theme_provider/theme_provider.dart';
 import 'package:youtube_ecommerce/constants/theme.dart';
 import 'package:youtube_ecommerce/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
 import 'package:youtube_ecommerce/firebase_helper/firebase_options/firebase_options.dart';
 import 'package:youtube_ecommerce/provider/app_provider.dart';
 
+import 'constants/dark_theme.dart';
 import 'screens/auth_ui/welcome/welcome.dart';
 import 'screens/custom_bottom_bar/custom_bottom_bar.dart';
+import 'widgets/theme_swith_widget/theme_switch_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,10 +32,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => AppProvider(),
+
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Youtube E-Commerce',
-          theme: themeData,
+          title: 'E-Commerce Pfa',
+          theme: darkThemeData,
           home: StreamBuilder(
             stream: FirebaseAuthHelper.instance.getAuthChange,
             builder: (context, snapshot) {
@@ -70,7 +74,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.green,
         title: const Text('PageStorage'),
       ),
       body: screen[_selectedIndex],
