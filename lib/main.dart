@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 // import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:provider/provider.dart';
-import 'package:theme_provider/theme_provider.dart';
-import 'package:ecommrce_pfa/constants/theme.dart';
 import 'package:ecommrce_pfa/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
 import 'package:ecommrce_pfa/firebase_helper/firebase_options/firebase_options.dart';
 import 'package:ecommrce_pfa/provider/app_provider.dart';
@@ -12,7 +10,6 @@ import 'package:ecommrce_pfa/provider/app_provider.dart';
 import 'constants/dark_theme.dart';
 import 'screens/auth_ui/welcome/welcome.dart';
 import 'screens/custom_bottom_bar/custom_bottom_bar.dart';
-import 'widgets/theme_swith_widget/theme_switch_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:ecommrce_pfa/constants/theme.dart';
 
 ThemeData darkThemeData = ThemeData(
   scaffoldBackgroundColor: Colors.grey[900],
@@ -25,12 +24,10 @@ ThemeData darkThemeData = ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      primary: Colors.green,
+      foregroundColor: Colors.white, backgroundColor: Colors.green, disabledForegroundColor: Colors.grey.withOpacity(0.38), disabledBackgroundColor: Colors.grey.withOpacity(0.12),
       textStyle: const TextStyle(
         fontSize: 18.0,
       ),
-      onPrimary: Colors.white,
-      onSurface: Colors.grey,
     ),
   ),
   primarySwatch: MaterialColor(
@@ -50,57 +47,57 @@ ThemeData darkThemeData = ThemeData(
   ),
   canvasColor: Colors.green,
   textTheme:  TextTheme(
-    headline1: TextStyle(
+    displayLarge: TextStyle(
       fontSize: 24,
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
-    bodyText1: TextStyle(
+    bodyLarge: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
-    bodyText2: TextStyle(
+    bodyMedium: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    headline4: TextStyle(
+    headlineMedium: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
-    headline5: TextStyle(
+    headlineSmall: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    headline6: TextStyle(
+    titleLarge: TextStyle(
       fontSize: 14,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    subtitle1: TextStyle(
+    titleMedium: TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    subtitle2: TextStyle(
+    titleSmall: TextStyle(
       fontSize: 10,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    button: TextStyle(
+    labelLarge: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
-    caption: TextStyle(
+    bodySmall: TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    overline: TextStyle(
+    labelSmall: TextStyle(
       fontSize: 10,
       fontWeight: FontWeight.normal,
       color: Colors.white,
