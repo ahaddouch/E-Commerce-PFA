@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/constants/constants.dart';
-import 'package:youtube_ecommerce/screens/cart_item_checkout/cart_item_checkout.dart';
-import 'package:youtube_ecommerce/screens/cart_screen/widgets/single_cart_item.dart';
+import 'package:ecommrce_pfa/constants/constants.dart';
+import 'package:ecommrce_pfa/screens/cart_item_checkout/cart_item_checkout.dart';
+import 'package:ecommrce_pfa/screens/cart_screen/widgets/single_cart_item.dart';
 
 import '../../constants/routes.dart';
 import '../../provider/app_provider.dart';

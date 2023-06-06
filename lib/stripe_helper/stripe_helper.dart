@@ -5,10 +5,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/constants/constants.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
-import 'package:youtube_ecommerce/provider/app_provider.dart';
+import 'package:ecommrce_pfa/constants/constants.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
+import 'package:ecommrce_pfa/provider/app_provider.dart';
 import 'package:http/http.dart'as http;
 
 import '../screens/custom_bottom_bar/custom_bottom_bar.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/constants/asset_images.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/screens/auth_ui/login/login.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
-import 'package:youtube_ecommerce/widgets/top_titles/top_titles.dart';
+import 'package:ecommrce_pfa/constants/asset_images.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/screens/auth_ui/login/login.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/widgets/top_titles/top_titles.dart';
 
 import '../sign_up/sign_up.dart';
 

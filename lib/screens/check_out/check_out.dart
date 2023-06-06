@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
-import 'package:youtube_ecommerce/models/product_model/product_model.dart';
-import 'package:youtube_ecommerce/screens/custom_bottom_bar/custom_bottom_bar.dart';
-import 'package:youtube_ecommerce/stripe_helper/stripe_helper.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
+import 'package:ecommrce_pfa/models/product_model/product_model.dart';
+import 'package:ecommrce_pfa/screens/custom_bottom_bar/custom_bottom_bar.dart';
+import 'package:ecommrce_pfa/stripe_helper/stripe_helper.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
 
 import '../../provider/app_provider.dart';
 

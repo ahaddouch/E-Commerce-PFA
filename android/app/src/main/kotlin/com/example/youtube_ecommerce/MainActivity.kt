@@ -1,4 +1,4 @@
-package com.example.youtube_ecommerce
+package com.example.ecommrce_pfa
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 

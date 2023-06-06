@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/screens/favourite_screen/widgets/single_favourite_item.dart';
+import 'package:ecommrce_pfa/screens/favourite_screen/widgets/single_favourite_item.dart';
 
 import '../../provider/app_provider.dart';
 

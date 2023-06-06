@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-import 'package:youtube_ecommerce/screens/account_screen/account_screens.dart';
-import 'package:youtube_ecommerce/screens/cart_screen/cart_screen.dart';
-import 'package:youtube_ecommerce/screens/home/home.dart';
-import 'package:youtube_ecommerce/screens/order_screen/order_screen.dart';
+import 'package:ecommrce_pfa/screens/account_screen/account_screens.dart';
+import 'package:ecommrce_pfa/screens/cart_screen/cart_screen.dart';
+import 'package:ecommrce_pfa/screens/home/home.dart';
+import 'package:ecommrce_pfa/screens/order_screen/order_screen.dart';
 
 class CustomBottomBar extends StatefulWidget {
   const CustomBottomBar({

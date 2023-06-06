@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
-import 'package:youtube_ecommerce/models/category_model/category_model.dart';
-import 'package:youtube_ecommerce/provider/app_provider.dart';
-import 'package:youtube_ecommerce/screens/category_view/category_view.dart';
-import 'package:youtube_ecommerce/screens/product_details/product_details.dart';
-import 'package:youtube_ecommerce/widgets/top_titles/top_titles.dart';
+import 'package:theme_provider/theme_provider.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
+import 'package:ecommrce_pfa/models/category_model/category_model.dart';
+import 'package:ecommrce_pfa/provider/app_provider.dart';
+import 'package:ecommrce_pfa/screens/category_view/category_view.dart';
+import 'package:ecommrce_pfa/screens/product_details/product_details.dart';
+import 'package:ecommrce_pfa/widgets/top_titles/top_titles.dart';
 
 import '../../models/product_model/product_model.dart';
 
@@ -60,6 +61,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: isLoading
           ? Center(
@@ -311,6 +313,7 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
+
     );
   }
 

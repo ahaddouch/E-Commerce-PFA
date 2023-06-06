@@ -2,10 +2,10 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/screens/custom_bottom_bar/custom_bottom_bar.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
-import 'package:youtube_ecommerce/widgets/top_titles/top_titles.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/screens/custom_bottom_bar/custom_bottom_bar.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/widgets/top_titles/top_titles.dart';
 
 import '../../../constants/constants.dart';
 import '../../../firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';

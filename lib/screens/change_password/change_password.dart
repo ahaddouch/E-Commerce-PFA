@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/constants/constants.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
+import 'package:ecommrce_pfa/constants/constants.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
 
 import '../../widgets/primary_button/primary_button.dart';
 

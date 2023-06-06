@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/constants/routes.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
-import 'package:youtube_ecommerce/screens/about_us/about_us.dart';
-import 'package:youtube_ecommerce/screens/change_password/change_password.dart';
-import 'package:youtube_ecommerce/screens/edit_profile/edit_profile.dart';
-import 'package:youtube_ecommerce/screens/favourite_screen/favourite_screen.dart';
-import 'package:youtube_ecommerce/screens/order_screen/order_screen.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/constants/routes.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_auth_helper/firebase_auth_helper.dart';
+import 'package:ecommrce_pfa/screens/about_us/about_us.dart';
+import 'package:ecommrce_pfa/screens/change_password/change_password.dart';
+import 'package:ecommrce_pfa/screens/edit_profile/edit_profile.dart';
+import 'package:ecommrce_pfa/screens/favourite_screen/favourite_screen.dart';
+import 'package:ecommrce_pfa/screens/order_screen/order_screen.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
 
 import '../../provider/app_provider.dart';
 

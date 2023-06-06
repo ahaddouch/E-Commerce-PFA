@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
-import 'package:youtube_ecommerce/models/order_model/order_model.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
+import 'package:ecommrce_pfa/models/order_model/order_model.dart';
 
 class OrderScreen extends StatefulWidget {
   const OrderScreen({super.key});

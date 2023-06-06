@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/constants/theme.dart';
+import 'package:ecommrce_pfa/constants/theme.dart';
 
 ThemeData darkThemeData = ThemeData(
   scaffoldBackgroundColor: Colors.grey[900],

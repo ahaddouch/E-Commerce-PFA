@@ -1,6 +1,6 @@
 {
-    "name": "youtube_ecommerce",
-    "short_name": "youtube_ecommerce",
+    "name": "ecommrce_pfa",
+    "short_name": "ecommrce_pfa",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

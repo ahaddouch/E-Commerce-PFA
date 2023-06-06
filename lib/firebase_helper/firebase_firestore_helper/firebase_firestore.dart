@@ -4,11 +4,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:youtube_ecommerce/constants/constants.dart';
-import 'package:youtube_ecommerce/models/category_model/category_model.dart';
-import 'package:youtube_ecommerce/models/order_model/order_model.dart';
-import 'package:youtube_ecommerce/models/product_model/product_model.dart';
-import 'package:youtube_ecommerce/models/user_model/user_model.dart';
+import 'package:ecommrce_pfa/constants/constants.dart';
+import 'package:ecommrce_pfa/models/category_model/category_model.dart';
+import 'package:ecommrce_pfa/models/order_model/order_model.dart';
+import 'package:ecommrce_pfa/models/product_model/product_model.dart';
+import 'package:ecommrce_pfa/models/user_model/user_model.dart';
 
 class FirebaseFirestoreHelper {
   static FirebaseFirestoreHelper instance = FirebaseFirestoreHelper();

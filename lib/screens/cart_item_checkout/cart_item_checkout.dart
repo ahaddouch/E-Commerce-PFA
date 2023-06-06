@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/stripe_helper/stripe_helper.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/stripe_helper/stripe_helper.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
 
 import '../../constants/routes.dart';
 import '../../firebase_helper/firebase_firestore_helper/firebase_firestore.dart';

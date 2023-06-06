@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/models/product_model/product_model.dart';
-import 'package:youtube_ecommerce/provider/app_provider.dart';
+import 'package:ecommrce_pfa/models/product_model/product_model.dart';
+import 'package:ecommrce_pfa/provider/app_provider.dart';
 
 import '../../../constants/constants.dart';
 

@@ -4,8 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:youtube_ecommerce/models/user_model/user_model.dart';
-import 'package:youtube_ecommerce/widgets/primary_button/primary_button.dart';
+import 'package:ecommrce_pfa/models/user_model/user_model.dart';
+import 'package:ecommrce_pfa/widgets/primary_button/primary_button.dart';
 
 import '../../provider/app_provider.dart';
 

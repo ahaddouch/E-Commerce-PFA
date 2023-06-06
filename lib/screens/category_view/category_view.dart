@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/models/category_model/category_model.dart';
+import 'package:ecommrce_pfa/models/category_model/category_model.dart';
 
 import '../../constants/routes.dart';
 import '../../firebase_helper/firebase_firestore_helper/firebase_firestore.dart';

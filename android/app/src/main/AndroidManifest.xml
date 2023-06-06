@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.youtube_ecommerce">
+    package="com.example.ecommrce_pfa">
    <application
         android:label="Youtube Ecommerce"
         android:name="${applicationName}"

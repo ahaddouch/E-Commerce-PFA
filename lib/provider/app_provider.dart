@@ -4,11 +4,11 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:youtube_ecommerce/constants/constants.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
-import 'package:youtube_ecommerce/firebase_helper/firebase_storage_helper/firebase_storage_helper.dart';
-import 'package:youtube_ecommerce/models/product_model/product_model.dart';
-import 'package:youtube_ecommerce/models/user_model/user_model.dart';
+import 'package:ecommrce_pfa/constants/constants.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_firestore_helper/firebase_firestore.dart';
+import 'package:ecommrce_pfa/firebase_helper/firebase_storage_helper/firebase_storage_helper.dart';
+import 'package:ecommrce_pfa/models/product_model/product_model.dart';
+import 'package:ecommrce_pfa/models/user_model/user_model.dart';
 
 class AppProvider with ChangeNotifier {
   //// Cart Work
