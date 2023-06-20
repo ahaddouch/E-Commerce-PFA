@@ -1,6 +1,13 @@
 import 'package:ecommrce_pfa/models/product_model/product_model.dart';
 
 class OrderModel {
+  String payment;
+  String status;
+  List<ProductModel> products;
+  double totalPrice;
+  String orderId;
+  String userId;
+
   OrderModel(
       {required this.totalPrice,
       required this.orderId,
@@ -9,13 +16,7 @@ class OrderModel {
       required this.status,
       required this.userId});
 
-  String payment;
-  String status;
 
-  List<ProductModel> products;
-  double totalPrice;
-  String orderId;
-  String userId;
 
   factory OrderModel.fromJson(Map<String, dynamic> json) {
     List<dynamic> productMap = json["products"];

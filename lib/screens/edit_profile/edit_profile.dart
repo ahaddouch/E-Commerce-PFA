@@ -74,7 +74,7 @@ class _EditProfileState extends State<EditProfile> {
             ),
           ),
           const SizedBox(
-            height: 24.0,
+            height: 16.0,
           ),
           PrimaryButton(
             title: "Update",

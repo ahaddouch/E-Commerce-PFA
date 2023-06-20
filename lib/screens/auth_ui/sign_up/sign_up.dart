@@ -34,7 +34,7 @@ class _SignUpState extends State<SignUp> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const TopTitles(
-                  subtitle: "Welcome Back To E Commerce App",
+                  subtitle: "Welcome To EMSISHOP",
                   title: "Create Account"),
               const SizedBox(
                 height: 46.0,

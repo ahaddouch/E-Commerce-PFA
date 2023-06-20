@@ -123,13 +123,13 @@ class _SingleCartItemState extends State<SingleCartItem> {
                                 } else {
                                   appProvider.removeFavouriteProduct(
                                       widget.singleProduct);
-                                  showMessage("Removed to wishlist");
+                                  showMessage("Removed from wishlist");
                                 }
                               },
                               child: Text(
                                 appProvider.getFavouriteProductList
                                         .contains(widget.singleProduct)
-                                    ? "Remove to wishlist"
+                                    ? "Remove from wishlist"
                                     : "Add to wishlist",
                                 style: const TextStyle(
                                   fontSize: 12.0,

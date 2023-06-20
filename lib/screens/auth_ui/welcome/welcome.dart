@@ -19,7 +19,7 @@ class Welcome extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const TopTitles(
-                subtitle: "Buy AnyItems From Using App ", title: "Welcome"),
+                subtitle: "Shop Smart, Shop Easy: Your Ultimate Destination for All Your Shopping Needs!", title: "Welcome"),
             Center(
               child: Image.asset(
                 AssetsImages.instance.welcomeImage,

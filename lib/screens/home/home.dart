@@ -236,7 +236,7 @@ class _HomeState extends State<Home> {
                             )
                           : productModelList.isEmpty
                               ? const Center(
-                                  child: Text("Best Product is empty"),
+                                  child: Text("Products is empty"),
                                 )
                               : Padding(
                                   padding: const EdgeInsets.all(12.0),

@@ -53,7 +53,7 @@ class _AccountScreenState extends State<AccountScreen> {
                 Text(
                   appProvider.getUserInformation.name,
                   style: const TextStyle(
-                    fontSize: 22,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -61,7 +61,7 @@ class _AccountScreenState extends State<AccountScreen> {
                   appProvider.getUserInformation.email,
                 ),
                 const SizedBox(
-                  height: 12.0,
+                  height: 10.0,
                 ),
                 SizedBox(
                   width: 130,
@@ -94,7 +94,7 @@ class _AccountScreenState extends State<AccountScreen> {
                         widget: const FavouriteScreen(), context: context);
                   },
                   leading: const Icon(Icons.favorite_outline),
-                  title: const Text("Favourite"),
+                  title: const Text("Favourites"),
                 ),
                 ListTile(
                   onTap: () {
@@ -122,7 +122,7 @@ class _AccountScreenState extends State<AccountScreen> {
                   title: const Text("Log out"),
                 ),
                 const SizedBox(
-                  height: 12.0,
+                  height: 10.0,
                 ),
                 const Text("Version 1.0.0")
               ],

@@ -14,7 +14,6 @@ class CategoryModel {
 
   String image;
   String name;
-
   String id;
 
   factory CategoryModel.fromJson(Map<String, dynamic> json) => CategoryModel(

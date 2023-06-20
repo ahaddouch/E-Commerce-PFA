@@ -115,7 +115,6 @@ class _CheckoutState extends State<Checkout> {
             PrimaryButton(
               title: "Continues",
               onPressed: () async {
-                print("Hrea");
                 appProvider.clearBuyProduct();
                 appProvider.addBuyProduct(widget.singleProduct);
 
@@ -134,14 +133,12 @@ class _CheckoutState extends State<Checkout> {
                     });
                   }
                 } else {
-                  print("hello");
                  
                   int value = double.parse(
                           appProvider.totalPriceBuyProductList().toString())
                       .round()
                       .toInt();
                   String totalPrice = (value * 100).toString();
-                  print("hello");
                   await StripeHelper.instance
                       .makePayment(totalPrice.toString(), context);
                 }

@@ -30,7 +30,7 @@ class _ChangePasswordState extends State<ChangePassword> {
         ),
       ),
       body: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         children: [
           TextFormField(
             controller: newpassword,
@@ -60,7 +60,7 @@ class _ChangePasswordState extends State<ChangePassword> {
             controller: confirmpassword,
             obscureText: isShowPassword,
             decoration: const InputDecoration(
-              hintText: "Confrim Password",
+              hintText: "Confirm Password",
               prefixIcon: Icon(
                 Icons.password_sharp,
               ),
@@ -74,14 +74,14 @@ class _ChangePasswordState extends State<ChangePassword> {
             title: "Update",
             onPressed: () async {
               if (newpassword.text.isEmpty) {
-                showMessage("New Password is empty");
+                showMessage("New Password field is empty");
               } else if (confirmpassword.text.isEmpty) {
-                showMessage("Confirm Password is empty");
+                showMessage("Confirm Password field is empty");
               } else if (confirmpassword.text == newpassword.text) {
                 FirebaseAuthHelper.instance
                     .changePassword(newpassword.text, context);
               } else {
-                showMessage("Confrim Password is not match");
+                showMessage("Passwords do not match");
               }
             },
           ),

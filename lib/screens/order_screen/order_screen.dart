@@ -91,7 +91,7 @@ class _OrderScreenState extends State<OrderScreen> {
                                   : Column(
                                       children: [
                                         Text(
-                                          "Quanity: ${orderModel.products[0].qty.toString()}",
+                                          "Quantity: ${orderModel.products[0].qty.toString()}",
                                           style: const TextStyle(
                                             fontSize: 12.0,
                                           ),

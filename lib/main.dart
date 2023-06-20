@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
 
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'E-Commerce Pfa',
+          title: 'EMSI SHOP',
           theme: darkThemeData,
           home: StreamBuilder(
             stream: FirebaseAuthHelper.instance.getAuthChange,
@@ -62,7 +62,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     const HomeScreen(),
     const Center(
       child: Text(
-        "Shallo",
+        "Hello",
       ),
     ),
   ];
@@ -72,7 +72,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: const Text('PageStorage'),
+        title: const Text('Page Storage'),
       ),
       body: screen[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(

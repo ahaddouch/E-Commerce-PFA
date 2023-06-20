@@ -30,7 +30,7 @@ class StripeHelper {
                   paymentIntentClientSecret: paymentIntent![
                       'client_secret'], //Gotten from payment intent
                   style: ThemeMode.light,
-                  merchantDisplayName: 'Sabir Dev',
+                  merchantDisplayName: 'Emsi students',
                   googlePay: gpay))
           .then((value) {});
 
