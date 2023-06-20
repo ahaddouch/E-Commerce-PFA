@@ -18,9 +18,9 @@ ThemeData darkThemeData = ThemeData(
     focusedBorder: outlineInputBorder,
     disabledBorder: outlineInputBorder,
     iconColor: Colors.white,
-    labelStyle: TextStyle(color: Colors.white),
+    labelStyle: const TextStyle(color: Colors.white),
    // IconButtonTheme: IconThemeData(color: Colors.white),
-    hintStyle: TextStyle(color: Colors.white),
+    hintStyle: const TextStyle(color: Colors.white),
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
@@ -46,7 +46,7 @@ ThemeData darkThemeData = ThemeData(
     },
   ),
   canvasColor: Colors.green,
-  textTheme:  TextTheme(
+  textTheme:  const TextTheme(
     displayLarge: TextStyle(
       fontSize: 24,
       fontWeight: FontWeight.bold,
